@@ -1,0 +1,47 @@
+:root {
+  --bg-dark-grey: rgb(50, 50, 50);
+  --text-white: white;
+  --text-purple: #e867ed;
+}
+
+* {
+  border: 3px solid red;
+}
+
+body {
+  background-color: var(--bg-dark-grey);
+  color: var(--text-white);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+code {
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-purple);
+}
+
+@media screen and (min-width: 768px) {
+  /* to do- implement large screen size */
+  * {
+    border-color: blue;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* to do - implement large screen size */
+  * {
+    border-color: greenyellow;
+  }
+}
